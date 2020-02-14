@@ -1,0 +1,18 @@
+{
+  "name": "Context Menu - Zoek een Boek",
+  "description": "'Zoek 'n boek...': zoek [selectie] in bol.com of als titel/schrijver in boekwinkeltjes",
+  "version": "0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "reader white 16.png",
+    "48": "reader white48.png",
+    "128": "reader white128.png"
+  },
+  "browser_action": {
+    "default_icon": "reader white.png"
+  },
+  "manifest_version": 2
+}
